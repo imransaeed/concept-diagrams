@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-10T08:20:46.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="gHEMIkxtwGPfiEGp5MUW" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-10T09:23:14.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="fyt1637D4Hb-VzaT5IUY" version="13.6.9" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
-    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,20 +10,11 @@
         <mxCell id="GOLraGF-CfSpLIagJdrl-5" value="AWS Zone A" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;gradientColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="180" y="240" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="GOLraGF-CfSpLIagJdrl-6" value="AWS Zone B" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;gradientColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="330" y="240" width="120" height="130" as="geometry" />
-        </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-7" value="AWS Future Zone" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;gradientColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="560" y="240" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="GOLraGF-CfSpLIagJdrl-8" value="AWS S3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;sketch=1;gradientColor=none;align=left;strokeColor=#CC0000;" vertex="1" parent="1">
+        <mxCell id="GOLraGF-CfSpLIagJdrl-8" value="S3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;sketch=1;gradientColor=none;align=left;strokeColor=#CC0000;" vertex="1" parent="1">
           <mxGeometry x="350" y="460" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="GOLraGF-CfSpLIagJdrl-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-6" target="GOLraGF-CfSpLIagJdrl-7">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="290" as="sourcePoint" />
-            <mxPoint x="520" y="240" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-11" value="Secure Petabyte scale storage. Protect at all cost, i.e. heads will roll if this is compromised in any way!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="460" width="240" height="80" as="geometry" />
@@ -43,28 +34,129 @@
         <mxCell id="GOLraGF-CfSpLIagJdrl-16" value="App1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;sketch=1;gradientColor=none;align=left;strokeColor=#99FF99;" vertex="1" parent="1">
           <mxGeometry x="190" y="270" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GOLraGF-CfSpLIagJdrl-17" value="App1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;sketch=1;gradientColor=none;align=left;strokeColor=#66FF66;" vertex="1" parent="1">
-          <mxGeometry x="340" y="270" width="40" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-18" value="App1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;sketch=1;gradientColor=none;align=left;strokeColor=#66FF66;" vertex="1" parent="1">
           <mxGeometry x="570" y="270" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-19" value="App 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;sketch=1;gradientColor=none;align=left;strokeColor=#6666FF;" vertex="1" parent="1">
           <mxGeometry x="230" y="320" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GOLraGF-CfSpLIagJdrl-20" value="App 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;sketch=1;gradientColor=none;align=left;strokeColor=#6666FF;" vertex="1" parent="1">
-          <mxGeometry x="390" y="320" width="40" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-21" value="App 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;sketch=1;gradientColor=none;align=left;strokeColor=#6666FF;" vertex="1" parent="1">
           <mxGeometry x="620" y="310" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GOLraGF-CfSpLIagJdrl-23" value="Each Application is clustered within a zone and replicated across zones for maximum scalability and resilience" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="235" width="240" height="140" as="geometry" />
+        <mxCell id="GOLraGF-CfSpLIagJdrl-23" value="&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Each Application is clustered within a zone and replicated across zones for maximum scalability and resilience&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;All VPC have end points (VPC-EP) to enable secure cross-zone and cross-VPC communications&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;S3 access is limited via VPC-EP configurations&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="235" width="360" height="140" as="geometry" />
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-24" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-23" target="GOLraGF-CfSpLIagJdrl-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="460" as="sourcePoint" />
             <mxPoint x="550" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-26" value="VPC-EP" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;strokeColor=#33001A;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="290" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="370" y="240" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-6" value="AWS Zone B" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;gradientColor=none;align=left;verticalAlign=top;" vertex="1" parent="GOLraGF-CfSpLIagJdrl-27">
+          <mxGeometry width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-17" value="App1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;sketch=1;gradientColor=none;align=left;strokeColor=#66FF66;" vertex="1" parent="GOLraGF-CfSpLIagJdrl-27">
+          <mxGeometry x="10" y="35" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-20" value="App 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;sketch=1;gradientColor=none;align=left;strokeColor=#6666FF;" vertex="1" parent="GOLraGF-CfSpLIagJdrl-27">
+          <mxGeometry x="60" y="85" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-28" value="VPC-EP" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;strokeColor=#33001A;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="470" y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-29" value="VPC-EP" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;strokeColor=#33001A;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="540" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-42" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="10" y="1180" width="1160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-32" value="" style="group;" vertex="1" connectable="0" parent="GOLraGF-CfSpLIagJdrl-42">
+          <mxGeometry width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-30" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;shadow=0;sketch=1;strokeColor=#33001A;gradientColor=none;align=left;fillColor=#CDA2BE;" vertex="1" parent="GOLraGF-CfSpLIagJdrl-32">
+          <mxGeometry width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-41" value="" style="group" vertex="1" connectable="0" parent="GOLraGF-CfSpLIagJdrl-32">
+          <mxGeometry x="90" y="40" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-31" value="S3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;sketch=1;strokeColor=#33001A;gradientColor=none;align=left;" vertex="1" parent="GOLraGF-CfSpLIagJdrl-41">
+          <mxGeometry width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-40" value="Independent clouds across several markets/countries that are locally managed accounts and don&#39;t share data with each other" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="GOLraGF-CfSpLIagJdrl-42">
+          <mxGeometry x="860" y="10" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-38" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;shadow=0;sketch=1;strokeColor=#33001A;gradientColor=none;align=left;fillColor=#E1D5E7;" vertex="1" parent="GOLraGF-CfSpLIagJdrl-42">
+          <mxGeometry x="520" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-39" value="S3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;sketch=1;strokeColor=#33001A;gradientColor=none;align=left;" vertex="1" parent="GOLraGF-CfSpLIagJdrl-42">
+          <mxGeometry x="610" y="40" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-34" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;shadow=0;sketch=1;strokeColor=#33001A;gradientColor=none;align=left;fillColor=#CC0000;" vertex="1" parent="GOLraGF-CfSpLIagJdrl-42">
+          <mxGeometry x="260" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-35" value="S3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;sketch=1;strokeColor=#33001A;gradientColor=none;align=left;" vertex="1" parent="GOLraGF-CfSpLIagJdrl-42">
+          <mxGeometry x="350" y="40" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-43" target="GOLraGF-CfSpLIagJdrl-44">
+          <mxGeometry x="-0.1538" y="25" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-43" target="GOLraGF-CfSpLIagJdrl-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-43" value="Configuration Service" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=0;sketch=1;strokeColor=#33001A;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="870" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-44" value="&lt;b&gt;[Lambda]&lt;/b&gt;&lt;br&gt;S3 Bucket Monitoring" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;sketch=1;strokeColor=#33001A;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="975" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-45" value="" style="endArrow=classic;html=1;strokeColor=#E6D0DE;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="870" as="sourcePoint" />
+            <mxPoint x="890" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-48" value="&lt;b&gt;[EC2]&lt;/b&gt;&lt;br&gt;Service to monitor non S3 storage sources" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;sketch=1;strokeColor=#33001A;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="995" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-50" value="" style="endArrow=classic;html=1;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-30" target="GOLraGF-CfSpLIagJdrl-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1230" as="sourcePoint" />
+            <mxPoint x="290" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-51" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-34" target="GOLraGF-CfSpLIagJdrl-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="1180" as="sourcePoint" />
+            <mxPoint x="890" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-52" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-38" target="GOLraGF-CfSpLIagJdrl-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="1010" as="sourcePoint" />
+            <mxPoint x="890" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-56" value="S3 for temp storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;sketch=1;strokeColor=#33001A;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1055" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-58" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-48" target="GOLraGF-CfSpLIagJdrl-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="970" as="sourcePoint" />
+            <mxPoint x="890" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-60" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-56" target="GOLraGF-CfSpLIagJdrl-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="970" as="sourcePoint" />
+            <mxPoint x="890" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
