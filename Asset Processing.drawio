@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-10T10:05:00.780Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="8aEU8rUNFzWUHSReemOV" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-10T10:17:44.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="IcnwCSJEbd82hK4uDgtK" version="13.6.9" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
-    <mxGraphModel dx="5031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="5031" dy="3089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="GOLraGF-CfSpLIagJdrl-7" value="AWS Future Zone" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;gradientColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1150" y="240" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="GOLraGF-CfSpLIagJdrl-8" value="S3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;sketch=1;align=left;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="1">
+        <mxCell id="GOLraGF-CfSpLIagJdrl-8" value="S3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;sketch=1;align=center;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="1">
           <mxGeometry x="940" y="460" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-11" value="Secure Petabyte scale storage. Protect at all cost, i.e. heads will roll if this is compromised in any way!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="1">
@@ -111,13 +111,13 @@
         <mxCell id="GOLraGF-CfSpLIagJdrl-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-43" target="GOLraGF-CfSpLIagJdrl-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GOLraGF-CfSpLIagJdrl-43" value="Configuration Service" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=0;sketch=1;strokeColor=#33001A;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="GOLraGF-CfSpLIagJdrl-43" value="Configuration Service" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=0;sketch=1;strokeColor=#33001A;gradientColor=none;align=left;fillColor=#D5E8D4;" vertex="1" parent="1">
           <mxGeometry x="1100" y="1130" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="GOLraGF-CfSpLIagJdrl-44" value="&lt;b&gt;[Lambda]&lt;/b&gt;&lt;br&gt;S3 Bucket Monitoring" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;sketch=1;strokeColor=#33001A;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="GOLraGF-CfSpLIagJdrl-44" value="&lt;b&gt;[Lambda]&lt;/b&gt;&lt;br&gt;S3 Bucket Monitoring" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;sketch=1;strokeColor=#33001A;gradientColor=none;align=left;fillColor=#D4E1F5;" vertex="1" parent="1">
           <mxGeometry x="560" y="1235" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GOLraGF-CfSpLIagJdrl-48" value="&lt;b&gt;[EC2]&lt;/b&gt;&lt;br&gt;Service to monitor non S3 storage sources" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;sketch=1;strokeColor=#33001A;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="GOLraGF-CfSpLIagJdrl-48" value="&lt;b&gt;[EC2]&lt;/b&gt;&lt;br&gt;Service to monitor non S3 storage sources" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;sketch=1;strokeColor=#33001A;gradientColor=none;align=left;fillColor=#D4E1F5;" vertex="1" parent="1">
           <mxGeometry x="1090" y="1255" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-50" value="" style="endArrow=classic;html=1;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-30" target="GOLraGF-CfSpLIagJdrl-44">
@@ -243,13 +243,55 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GOLraGF-CfSpLIagJdrl-82" value="&lt;b&gt;[EKS]&lt;/b&gt;&lt;br&gt;AMI Linux clustered app for heavy image processing not supported by Lambda" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;sketch=1;strokeColor=#33001A;gradientColor=none;align=left;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="GOLraGF-CfSpLIagJdrl-82" value="&lt;b&gt;[EKS]&lt;/b&gt;&lt;br&gt;AMI Linux clustered app for heavy image processing not supported by Lambda" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;sketch=1;strokeColor=#33001A;gradientColor=none;align=left;fillColor=#D4E1F5;" vertex="1" parent="1">
           <mxGeometry x="574" y="970" width="246" height="90" as="geometry" />
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-83" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-82">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="840" y="910" as="sourcePoint" />
             <mxPoint x="697" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#000000;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-84" target="GOLraGF-CfSpLIagJdrl-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-84" value="Content &lt;br&gt;Creator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=0;sketch=1;strokeColor=#33001A;fillColor=#E6E6E6;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1720" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-85" target="GOLraGF-CfSpLIagJdrl-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-85" value="Content &lt;br&gt;Creator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=0;sketch=1;strokeColor=#33001A;fillColor=#E6E6E6;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1710" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-86" target="GOLraGF-CfSpLIagJdrl-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-86" value="Content &lt;br&gt;Creator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=0;sketch=1;strokeColor=#33001A;fillColor=#E6E6E6;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1710" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-90" value="Corporate Security Gateway (Active Directory, Okta, OneLogin, Ping, etc.)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;strokeColor=#33001A;fillColor=#E6E6E6;gradientColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="565" y="100" width="920" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-91" target="GOLraGF-CfSpLIagJdrl-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-91" value="End User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=0;sketch=1;strokeColor=#33001A;fillColor=#E6E6E6;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="955" y="-110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-95" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-1" target="GOLraGF-CfSpLIagJdrl-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="210" as="sourcePoint" />
+            <mxPoint x="1060" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-98" value="Shared EFS for temp files" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;shadow=0;sketch=1;fillColor=#FFFF88;gradientColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="910" y="975" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-99" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-82" target="GOLraGF-CfSpLIagJdrl-98">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="1030" as="sourcePoint" />
+            <mxPoint x="880" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
