@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-10T09:23:14.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="fyt1637D4Hb-VzaT5IUY" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-10T09:35:04.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="2Zmsv1oWNe2pYpLE0Tfm" version="13.6.9" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" background="#ffffff" math="0" shadow="0">
       <root>
@@ -74,7 +74,7 @@
           <mxGeometry x="540" y="320" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-42" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="10" y="1180" width="1160" height="160" as="geometry" />
+          <mxGeometry x="90" y="1440" width="1160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-32" value="" style="group;" vertex="1" connectable="0" parent="GOLraGF-CfSpLIagJdrl-42">
           <mxGeometry width="230" height="160" as="geometry" />
@@ -112,51 +112,91 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-43" value="Configuration Service" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=0;sketch=1;strokeColor=#33001A;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="870" width="90" height="90" as="geometry" />
+          <mxGeometry x="1100" y="1130" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-44" value="&lt;b&gt;[Lambda]&lt;/b&gt;&lt;br&gt;S3 Bucket Monitoring" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;sketch=1;strokeColor=#33001A;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="480" y="975" width="150" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="GOLraGF-CfSpLIagJdrl-45" value="" style="endArrow=classic;html=1;strokeColor=#E6D0DE;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="840" y="870" as="sourcePoint" />
-            <mxPoint x="890" y="820" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="560" y="1235" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-48" value="&lt;b&gt;[EC2]&lt;/b&gt;&lt;br&gt;Service to monitor non S3 storage sources" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;sketch=1;strokeColor=#33001A;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="995" width="120" height="80" as="geometry" />
+          <mxGeometry x="1090" y="1255" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-50" value="" style="endArrow=classic;html=1;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-30" target="GOLraGF-CfSpLIagJdrl-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="1230" as="sourcePoint" />
-            <mxPoint x="290" y="1180" as="targetPoint" />
+            <mxPoint x="320" y="1490" as="sourcePoint" />
+            <mxPoint x="370" y="1440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-51" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-34" target="GOLraGF-CfSpLIagJdrl-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="1180" as="sourcePoint" />
-            <mxPoint x="890" y="820" as="targetPoint" />
+            <mxPoint x="640" y="1440" as="sourcePoint" />
+            <mxPoint x="970" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-52" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-38" target="GOLraGF-CfSpLIagJdrl-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="840" y="1010" as="sourcePoint" />
-            <mxPoint x="890" y="960" as="targetPoint" />
+            <mxPoint x="920" y="1270" as="sourcePoint" />
+            <mxPoint x="970" y="1220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-56" value="S3 for temp storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;sketch=1;strokeColor=#33001A;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1055" width="60" height="80" as="geometry" />
+          <mxGeometry x="900" y="1315" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-58" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-48" target="GOLraGF-CfSpLIagJdrl-56">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="840" y="970" as="sourcePoint" />
-            <mxPoint x="890" y="920" as="targetPoint" />
+            <mxPoint x="920" y="1230" as="sourcePoint" />
+            <mxPoint x="970" y="1180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GOLraGF-CfSpLIagJdrl-60" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-56" target="GOLraGF-CfSpLIagJdrl-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="840" y="970" as="sourcePoint" />
-            <mxPoint x="890" y="920" as="targetPoint" />
+            <mxPoint x="920" y="1230" as="sourcePoint" />
+            <mxPoint x="970" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-67" value="Process Asset" style="endArrow=classic;html=1;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.649;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-44" target="GOLraGF-CfSpLIagJdrl-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="1130" as="sourcePoint" />
+            <mxPoint x="400" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="1275" />
+              <mxPoint x="400" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-68" value="AWS Rekognition" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;shadow=0;sketch=1;strokeColor=#33001A;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="740" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-69" value="Proprietary Tagging Software (3rd Party)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;shadow=0;sketch=1;strokeColor=#33001A;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="830" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-61" value="AWS SWS for Asset Processing" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=none;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];fontColor=#000000;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="970" width="296" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-62" value="Validate" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];" vertex="1" parent="GOLraGF-CfSpLIagJdrl-61">
+          <mxGeometry x="10" y="33" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-63" value="De-duplicate" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];" vertex="1" parent="GOLraGF-CfSpLIagJdrl-61">
+          <mxGeometry x="98" y="33" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-64" value="Tag" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];" vertex="1" parent="GOLraGF-CfSpLIagJdrl-61">
+          <mxGeometry x="186" y="33" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-70" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.516;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-68" target="GOLraGF-CfSpLIagJdrl-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="800" as="sourcePoint" />
+            <mxPoint x="250" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="678" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GOLraGF-CfSpLIagJdrl-71" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GOLraGF-CfSpLIagJdrl-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="890" as="sourcePoint" />
+            <mxPoint x="650" y="1001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="870" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
