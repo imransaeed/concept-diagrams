@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-11T08:25:33.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="tPj8GyD6nR7jtuYHb8hN" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-11T08:56:46.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="8evvIyC9ROnbx7Ckxhn7" version="13.6.9" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
-    <mxGraphModel dx="1221" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -385,6 +385,12 @@
             <mxPoint x="1735" y="1820" as="sourcePoint" />
             <mxPoint x="1225" y="1820" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sZEwybRP1zb9QiWafdFN-25" value="End User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=0;sketch=1;strokeColor=#33001A;fillColor=#E6E6E6;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sZEwybRP1zb9QiWafdFN-26" value="End User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=0;sketch=1;strokeColor=#33001A;fillColor=#E6E6E6;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="70" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
